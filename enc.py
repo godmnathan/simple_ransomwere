@@ -26,7 +26,7 @@ def listFiles(baseDir):
 def main():
     global ignoreFileList
     ignoreFileList = [os.path.basename(__file__), 'key.key', 'enc.py', 'dec.py']
-s
+
     if len(sys.argv) > 1:
         dir = sys.argv[1]
     else:
