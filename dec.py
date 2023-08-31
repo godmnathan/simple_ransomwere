@@ -15,7 +15,7 @@ def listFiles(baseDir):
             allFiles.append(fullPath)
     return allFiles
 
-def main():sss
+def main():
 
     dir = sys.argv[1] if len(sys.argv) > 1 else dirDefault
     archives = listFiles(dir)
