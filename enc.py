@@ -31,7 +31,7 @@ def main():
         dir = sys.argv[1]
     else:
         dir = 'Archives'
-sss
+
     files = listFiles(dir)
     key = Fernet.generate_key()
 
