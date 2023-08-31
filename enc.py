@@ -32,7 +32,7 @@ def main():
     else:
         dir = 'Archives'
 
-    files = listFiles(dir)
+    files = listFiles(dir)sss
     key = Fernet.generate_key()
 
     with open('key.key','wb') as keyFile:
